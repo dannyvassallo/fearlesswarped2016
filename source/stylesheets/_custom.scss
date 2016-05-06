@@ -444,6 +444,8 @@ nav:after{
 .headline{
   position: relative;
   z-index: 9999;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .warped-logo{
@@ -457,7 +459,7 @@ nav:after{
 .bands{
   position: relative;
   z-index: 9999;
-  margin-top: -1%;
+  // margin-top: -1%;
   .band-wrap{
     margin-bottom: -2%;
   }
@@ -515,4 +517,9 @@ nav:after{
   left: 20%;
   bottom: 6%;
   width: 20%;
+}
+
+.olympics{
+  margin-top: -2% !important;
+  margin-bottom: 1% !important;
 }
