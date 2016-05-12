@@ -541,7 +541,6 @@ nav:after{
 }
 
 .jarrod-text{
-  // text-shadow: 10px 10px 10px #69a77e !important;
-  z-index: 999 !important;
-  position: relative;
+  position: absolute;
+  bottom: 0;
 }
