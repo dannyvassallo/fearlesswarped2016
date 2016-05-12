@@ -104,4 +104,22 @@ $(window).resize(function(){
   resizeSectionHeader();
 });
 
+var onModalHide = function() {
+    var video = '<iframe class="jarrodVideo" width="854" height="480" src="https://www.youtube.com/embed/EhVCeqWD3h8?enablejsapi=1&rel=0" frameborder="0" allowfullscreen></iframe>'
+    $('.jarrodVideo').remove();
+    $('#jarrodmodal .modal-content .video-container').append(video);
+};
+
+$(function(){
+  $('.jarrod').on('click', function(){
+    $('#jarrodmodal').openModal({
+      complete: onModalHide
+    });
+  });
+  $('.jarrod-mobile').on('click', function(){
+    $('#jarrodmodal').openModal({
+      complete: onModalHide
+    });
+  });
+});
 

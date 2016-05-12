@@ -8,7 +8,7 @@ $primary-color: color("grey", "darken-4") !default;
 // END MATERIALIZE
 @import "fontsettings";
 @import "stickyfooter";
-// @import "animation";
+@import "animation";
 @import "vendor/dcsns_wall";
 @import "social-wall-overrides";
 @import "custom";
