@@ -34,7 +34,7 @@
     {
       // SHARE INFO
       method: 'feed',
-      name: 'Welcome to the #FearlessSummer Games', // name of the product or content you want to share
+      name: 'Welcome to the #FearlessSummer Olympics', // name of the product or content you want to share
       link: 'http://fearlesssummer.com', // link back to the product or content you are sharing
       picture: 'https://s3.amazonaws.com/myfangate.com/fearlesswarped2016/shareimage.jpg', // path to an image you would like to share with this content
       caption: 'The Fearless Family wants to send you and a friend to a Van\'s Warped Tour Near You!', // caption
