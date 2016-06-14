@@ -506,6 +506,7 @@ nav:after{
   position: absolute;
   left: 55%;
   bottom: 6%;
+  display: none;
 }
 
 .mobile-prizing{
@@ -517,6 +518,7 @@ nav:after{
   left: 20%;
   bottom: 6%;
   width: 20%;
+  display: none;
 }
 
 .olympics{
@@ -543,4 +545,18 @@ nav:after{
 .jarrod-text{
   position: absolute;
   bottom: 0;
+}
+
+.herofour{
+  margin-top: -50px;
+}
+
+.gopro{
+  margin-top: -100px;
+}
+
+@media (max-width: 992px){
+  #contest-form{
+    margin-top: 100px;
+  }
 }
