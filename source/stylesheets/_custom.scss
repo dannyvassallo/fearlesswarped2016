@@ -475,7 +475,7 @@ nav:after{
   display: block;
   padding-bottom: 5% !important;
   position: relative;
-  z-index: 99999;
+  z-index: 999;
 }
 
 .small-warped{
@@ -559,4 +559,8 @@ nav:after{
   #contest-form{
     margin-top: 100px;
   }
+}
+
+.toast{
+  z-index: 99999999999999999999999999999;
 }
