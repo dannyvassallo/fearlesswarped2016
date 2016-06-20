@@ -37,8 +37,8 @@
       name: 'Welcome to the #FearlessSummer Olympics', // name of the product or content you want to share
       link: 'http://fearlesssummer.fearlessrecords.com/', // link back to the product or content you are sharing
       picture: 'https://s3.amazonaws.com/myfangate.com/fearlesswarped2016/shareimage.jpg', // path to an image you would like to share with this content
-      caption: 'The Fearless Family wants to send you and a friend to a Van\'s Warped Tour Near You!', // caption
-      description: 'Enter the #FearlessSummer sweepstakes to win a pair of tickets to a Vans Warped Tour date near you!' // description of your product or content
+      caption: 'Win weekly prizes from The Fearless Family and #fearlesssummer partners!', // caption
+      description: 'Enter the #FearlessSummer sweepstakes to win prizes from The Fearless Family and #fearlesssummer partners!' // description of your product or content
     },
     function(response) {
       if (response && response.post_id) {
